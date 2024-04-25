@@ -2,7 +2,8 @@
 #cabecalho {
     background-color: #899A9E;
     display: flex;
-    
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
 }
 #cabecalho ul {
     display: flex;
@@ -25,14 +26,28 @@
 }
 #navegacao ul li a {
     text-decoration: none;
-
 }
+#banners {
+    display: flex;
+    justify-content: center;
+}
+#banner1 {
+    width: 538.306px;
+    height: 420px;
+    padding-right: 10px;
+}
+#banner2 {
+    width: 747px;
+    height: 420px;
+    padding-left: 10px;
+}
+
 
 .redesSociais {
     width: 40px;
     height: auto;
 }
 .logo {
-    width: 300px;
+    width: 200px;
     height: auto;
 }
