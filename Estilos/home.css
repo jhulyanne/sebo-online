@@ -1,0 +1,38 @@
+
+#cabecalho {
+    background-color: #899A9E;
+    display: flex;
+    
+}
+#cabecalho ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+#cabecalho ul li img {
+    width: 40px;
+    height: auto;
+}
+#navegacao {
+    background: #EEE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navegacao ul {
+    list-style-type: none;
+    display: flex;
+}
+#navegacao ul li a {
+    text-decoration: none;
+
+}
+
+.redesSociais {
+    width: 40px;
+    height: auto;
+}
+.logo {
+    width: 300px;
+    height: auto;
+}

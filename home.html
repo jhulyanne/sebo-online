@@ -3,23 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos/home.css">
     <title>Livraria do Tempo</title>
 </head>
 <body>
     <header>
-        <div>
-            <img src="Fotos/logo.pb.png" alt="">
+        <div id="cabecalho">
+            <a href="home.html"><img class="logo" src="Fotos/logos e ícones/logo.b.png" alt="Logo da Livraria do Tempo na cor branca"></a>
+            <form>
+                <input type="search" name="busca" placeholder="Digite sua busca">
+            </form>
+            <ul>
+                <!-- OBS: usuário NÃO logado/cadastrado; 
+                    SUGESTÃO: redirecionamento para página login -->
+                <li><a href="login.html"><img src="Fotos/logos e ícones/carrinho.png" alt=""></a></li>
+                <li><a href="login.html"><img src="Fotos/logos e ícones/perfil.png" alt=""></a></li>
+            </ul>
         </div>
-        <nav> 
+        <nav id="navegacao">
             <ul>
                 <li><a href="login.html">Login</a></li>
                 <li><a href="cadastro.html">Cadastro</a></li>
-            </ul>
-            <ul>
-                <li><a href="home.html">Página inicial</a></li>
-                <li> <a href="sobrenos.html">Sobre nós</a></li>
-                <li><a href="carrinho.html">Carrinho</a></li>
-                <li><a href="perfil.html">Meu perfil</a></li>           
+                <li><a href="home.html">Pagina inicial</a></li>
+                <li><a href="sobrenos.html">Sobre Nós</a></li>
             </ul>
         </nav>
     </header>
@@ -56,8 +62,13 @@
     </article>
 </section>
 </body>
-<footer>
-    <img src="Fotos/logo.pb.png" alt="">
-    <p>Volte sempre.</p>
+<footer id="rodape">
+    <a href="home.html"><img class="logo" src="Fotos/logos e ícones/logo.p.png" alt="Logo da Livraria do Tempo na cor preta"></a>
+    <p>Nos acompanhe em nossas redes sociais:</p>
+    <ul>
+        <li><a href="linkedin.com"><img class="redesSociais" src="Fotos/logos e ícones/linkedin-logo.png" alt="LinkedIn de Livraria do Tempo"></a></li>
+        <li><a href="facebook.com"><img class="redesSociais" src="Fotos/logos e ícones/facebook-logo.svg" alt="Facebook de Livraria do Tempo"></a></li>
+        <li><a href="youtube.com"><img class="redesSociais" src="Fotos/logos e ícones/youtube-logo.svg" alt="Yotube de Livraria do Tempo"></a></li>
+    </ul>
 </footer>
 </html>
