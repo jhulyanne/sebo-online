@@ -1,0 +1,337 @@
+.body{
+   margin: 0;
+}
+.header{
+   width: 1890px;
+   height: 170px;
+   background: #899A9E;
+   flex-shrink: 0;
+   margin: 0%;
+   padding: 0%;
+}
+ .perfil{
+    fill: #FFF;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    right:110px;
+    margin-top: 60px;
+    position:absolute
+ }
+
+ .carro{
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    right:30px;
+    margin-top: 60px;
+    position:absolute
+}
+   
+
+.logo{
+    width: 260px;
+    height: 120px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 4%;
+    top: 3%;
+}
+
+.busca{ 
+position: absolute;
+top: 8%;
+left:35%;
+ width:620px;
+ height: 30px;
+ border-radius: 30px;
+ background: #FFF;
+ color: #ffffff;
+ font-family: Kanit;
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+ text-align: center;
+ border: #899A9E
+ 
+}
+
+.topo{
+   width: 1890px;
+   height: 60px;
+   background: #EEE;
+   flex-shrink: 0;  
+  position: absolute;
+}
+
+.sobre{
+   position: absolute;
+top: 41%;
+left:20%;
+   width: 1100px;
+   height: 200px;
+   border-radius: 30px;
+   background: #D9D9D9;
+   flex-shrink: 0;
+   
+}
+.somos{
+   width: 880px;
+   height: 162.438px;
+   flex-shrink: 0;
+   color: #000;
+   font-family: Kanit;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   text-align: center;
+   position: absolute;
+   left: 10%;
+   top: 20%;
+}
+
+.nos {
+   width: 308px;
+   height: 35px;
+   flex-shrink: 0;
+   color: #0A0909;
+   font-family: Kanit;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   text-align: center;
+   position: absolute;
+   left: 40%;
+   top: -80%;
+ 
+}
+
+.login{
+   color: #000;
+   text-decoration: none;
+   font-family: Kanit;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 300;
+   line-height: normal;
+   text-align: center;
+   position: absolute;
+   left: 88%;
+}
+
+.sobrenos{
+   width: 181px;
+   text-decoration: none;
+   color: #000;
+   font-family: kanit ;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 300;
+   line-height: normal;
+   text-align: center;
+   position: absolute;
+   left: auto;
+}
+.home{
+   color: #000;
+   font-family: Inter;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 300;
+   line-height: normal;
+   text-align: center;
+   text-decoration: none;
+}
+.cadastro{
+   color: #000;
+   text-decoration: none;
+   font-family: Kanit;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 300;
+   line-height: normal;
+   text-align: center;
+   position: absolute;
+   left: 93%
+   
+}
+.main{
+   display: flex;
+}
+.ald{
+   position: absolute;
+   left: 5%;
+   width: 402px;
+   height: 423px;
+   flex-shrink: 0;
+   display: flex;
+   top: 62%
+   
+}
+.jhu{
+   position: absolute;
+   left: 30%;
+   width: 432px;
+   height: 410px;
+   flex-shrink: 0;
+   display: flex;
+   top: 63%
+}
+.ig{
+   position: absolute;
+   left: 52%;
+   width: 420px;
+   height: 470px;
+   flex-shrink: 0;
+   display: flex;
+   top: 61%
+}
+.sil{
+   position: absolute;
+   left: 75%;
+   width: 402px;
+   height: 420px;
+   flex-shrink: 0;
+   display: flex;
+   top: 63%
+}
+
+.sils{
+   position: absolute;
+   width: 200px;
+   height: 80px;
+   background: #D9D9D9;
+   flex-shrink: 0;
+   color: #000;
+   font-family: Kanit;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 900;
+   line-height: normal;
+   text-align: center;
+   left: 81%;
+   top: 96%;
+}
+.aldv{
+   position: absolute;
+   width: 200px;
+   height: 80px;
+   background: #D9D9D9;
+   flex-shrink: 0;
+   color: #000;
+   font-family: Kanit;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 900;
+   line-height: normal;
+   text-align: center;
+   left: 10%;
+   top: 96%; 
+}
+.jhul{
+   position: absolute;
+   width: 200px;
+   height: 80px;
+   background: #D9D9D9;
+   flex-shrink: 0;
+   color: #000;
+   font-family: Kanit;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 900;
+   line-height: normal;
+   text-align: center;
+   left:36%;
+   top: 96%; 
+}
+.igo{
+   position: absolute;
+   width: 200px;
+   height: 80px;
+   background: #D9D9D9;
+   flex-shrink: 0;
+   color: #000;
+   font-family: Kanit;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 900;
+   line-height: normal;
+   text-align: center;
+   left: 58%;
+   top: 96%; 
+}
+
+footer {
+   position: absolute;
+   width: 1900px;
+   height: 200px;
+   top: 118%;
+   margin: 0px -10px -10px -10px;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+   text-align: left;
+   background-color: #c7dde2;
+
+   p {
+       font-family: "Kanit", sans-serif;
+       font-weight: 200;
+       font-size: 20px;
+       margin: 10px 0px 0px 50px;
+   }
+
+   .logo {
+       width: 200px;
+       height: auto;
+       padding: 10px 20px 50px 0px;
+   }
+
+   #logoRodape {
+       margin: 30px 0px 0px 50px;
+   }
+
+   #redesRodape {
+       margin: 30px 0px 0px 0px;
+
+       ul {
+           list-style-type: none;
+           display: flex;
+           flex-direction: row;
+           margin: 10px 0px 0px 10px;
+
+           .icones {
+               width: 40px;
+               height: auto;
+               padding: 0px 40px 40px 0px;
+               }
+       }
+
+   }
+
+   #mapaSite {
+       font-family: "Kanit", sans-serif;
+       color: black;
+       font-weight: 200;
+       font-size: 20px;
+       display: flex;
+       flex-direction: row;
+       padding: 30px 50px 0px 0px;
+       text-decoration: none;
+
+       ul {
+           list-style-type: none;
+           display: flex;
+           flex-direction: column;
+
+           a {
+               text-decoration: none;
+               color: black;
+           }
+       }
+   }
+}
+
+
