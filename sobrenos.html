@@ -3,67 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Estilos/sobrenos.css">
+    <link rel="stylesheet" href="stylesobre.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Sobre nós</title>
 </head>
-<body>
+<body class="body">
     <header>
-        <div id="cabecalho">
-            <a href="home.html"><img class="logo" src="Fotos/logos e ícones/logo.b.png" alt="Logo da Livraria do Tempo na cor branca"></a>
-            <form>
-                <input type="search" name="busca" placeholder="Digite sua busca">
-            </form>
-            <ul>
-                <li><a href="carrinho.html">Carrinho</a></li>
-                <li><a href="perfil.html">Meu Perfil</a></li>
-            </ul>
+        <div class="header">
+        <img class="logo"  src="logo.b.png" alt="logo">
+        <a href="carrinho.html"> <img class="carro" src="carrinho.png" alt="carrinho"></a>
+        <a href="perfil.html"> <img class="perfil" src="perfil.png" alt="perfil" href="perfil.html"></a>
+        <from >
+            <input class="busca" type="search" name="busca" placeholder="Digite sua busca">
+        </from>
         </div>
-        <nav id="navegacao">
+        <nav></nav>
+        <div class="topo">
             <ul>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="cadastro.html">Cadastro</a></li>
-                <li><a href="home.html">Pagina inicial</a></li>
-                <li><a href="sobrenos.html">Sobre Nós</a></li>
+                <a class= 'login' href="login.html">Login</a>
+                <a class='cadastro'href="cadastro.html">Cadastro</a>
+                <a class= 'home' href="home.html">Pagina inicial</a>
+                <a class = 'sobrenos' href="sobrenos.html">Sobre Nós</a>
             </ul>
+        </div>    
         </nav>
     </header>
-    <main>
-        <h1> Sobre nós</h1>
-        <p>Somos quatro alunos de programação da Turma 23 da Proz e unimos nossas habilidades para fazer um trabalho: criar uma livraria fictícia online., desenvolvemos uma plataforma digital onde os usuários podem explorar e simular a compra de livros.</p>
-        <div id="aldvan">
-            <img src="Fotos/Aldvan.png" alt="Aldvan">
-            <p>Aldvan</p>
-            <a href="https://github.com/"><img class="redesSociais" src="Fotos/logos e ícones/logo-github.svg" alt="GitHub de Aldvan"></a>
-            <a href="https://www.linkedin.com/in/"><img class="redesSociais" src="Fotos/logos e ícones/logo-linkedin.svg" alt="LinkedIn de Aldvan"></a>
-            <p>Fusce ut tincidunt ligula. Nunc tempor tortor a lacus egestas placerat. Nulla urna nulla, molestie ac porta ut, aliquam non metus. Aenean interdum enim enim.</p>    
+    <section>
+    <main class='main'>
+        <div class="sobre">
+        <h1 class="nos"> Sobre nós</h1>
+        <p class="somos" >Somos quatro alunos de programação da Turma 23 da Proz e unimos nossas habilidades para fazer um trabalho: criar uma livraria fictícia online., desenvolvemos uma plataforma digital onde os usuários podem explorar e simular a compra de livros.</p>
         </div>
-        <div id="jhulyanne">
-            <img src="Fotos/Jhulyanne.png" alt="Jhulyanne">
-            <p>Jhulyanne</p>
-            <a href="https://github.com/jhulyanne"><img class="redesSociais" src="Fotos/logos e ícones/logo-github.svg" alt="Logo GitHub"></a>
-            <a href="https://www.linkedin.com/in/jhulyanne-oliveira/"><img class="redesSociais" src="Fotos/logos e ícones/logo-linkedin.svg" alt="Logo LinkedIn"></a>
-            <p>Nunc sed velit pellentesque, mollis risus nec, accumsan risus. Aenean vel massa id lectus lacinia vestibulum ut in tellus. Pellentesque sit amet volutpat justo. Nulla sit amet ligula nec urna blandit sollicitudin nec sed massa.</p>
+    </section>
+        <img class='ald' src="Aldivan.png" alt="Aldivan">
+        <p div class="aldv">Aldvan</p>
         </div>
-        <div id="igor">
-            <img src="Fotos/Igor.png" alt="Igor">
-            <p>Igor</p>
-            <a href="https://github.com/"><img class="redesSociais" src="Fotos/logos e ícones/logo-github.svg" alt="GitHub de Igor"></a>
-            <a href="https://www.linkedin.com/in/"><img class="redesSociais" src="Fotos/logos e ícones/logo-linkedin.svg" alt="LinkedIn de Igor"></a>
-            <p>Donec convallis justo ac posuere ullamcorper. Quisque in rutrum magna, eget scelerisque elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos</p>
+        <img class='jhu'src="Jhulyanne.png" alt="Jhulyanne">
+        <p div class="jhul">Jhulyanne</p>
         </div>
-        <div id="silas">
-            <img src="Fotos/Silas.png" alt="Silas">
-            <p>Silas</p>
-            <a href="https://github.com/"><img class="redesSociais" src="Fotos/logos e ícones/logo-github.svg" alt="GitHub de Silas"></a>
-            <a href="https://www.linkedin.com/in/"><img class="redesSociais" src="Fotos/logos e ícones/logo-linkedin.svg" alt="LinkedIn de Silas"></a>
-            <p>Eu sou o Silas, tenho 33 anos e sou auxiliar administrativo. Além disso, sou um grande fã de jogos de RPG, animes e cinema. E agora tô aprendendo a programar, explorando um monte de coisas novas.</p>
-        </div>        
-            <p>"O futuro é incerto. Mas isso é o que o torna tão interessante." - Alvis, Xenoblade Chronicles</p>
+        <img class='ig'src="Igor.png" alt="Igor">
+        <p div class="igo">Igor</p>
+        </div>
+        <img class='sil'src="Silas.png" alt="Silas">
+        <p div class="sils">Silas</p>
+        </div>
+
     </main>
 </body>
+</div>
 <footer>
-    <div id="rodape">
+    <div id="logoRodape">
         <a href="home.html"><img class="logo" src="Fotos/logos e ícones/logo.p.png" alt="Logo da Livraria do Tempo na cor preta"></a>
+    </div>
+    <div id="redesRodape">
         <p>Nos acompanhe em nossas redes sociais:</p>
         <ul>
             <li><a href="instagram.com"><img class="icones" src="Fotos/logos e ícones/logo-instagram.svg" alt="Instagram de Livraria do Tempo"></a></li>
@@ -83,7 +77,7 @@
             </ul>
         </div>
         <div id="col2">
-            <ul>  
+            <ul>
                 <li><a href="perfil.html">Meu perfil</a></li>
                 <li><a href="emconstrucao.html">Informações da conta</a></li>
                 <li><a href="carrinho.html">Carrinho</a></li>
@@ -93,3 +87,4 @@
         </div>
     </div>
 </footer>
+</html>
