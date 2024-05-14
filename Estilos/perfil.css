@@ -1,90 +1,239 @@
-/* 
-font-family: "Kanit", sans-serif;
-font-weight: 100;
-font-family: "Alata", sans-serif;
-font-weight: 400; */
-
-
-
-#cabecalho {
-    background-color: #899A9E;
-    padding: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin:  -10px -10px 0px -10px;
-
-    form input {
-        width: 850px;
-        height: 30px;
-        border: #899A9E;
-        border-radius: 20px;
-        border-color: #899A9E;
-    }
-
-    input::placeholder {
-        color: #999;
-        font-family: "Kanit", sans-serif;
-        font-weight:300;
-        padding-left: 15px;
-    }
-
-    .logo {
-        width: 200px;
-        height: auto;
-        padding: 0px 20px 0px 20px;
-    }
-
-    ul {
-        display: flex;
-        list-style-type: none;
-    }
-
-    ul li {
-        padding: 0px 20px 0px 20px;
-    }
-}
-
-nav {
-    background: #EEE;
-    padding: 12px;
-    margin: 0px -10px 0px -10px;
-
-    ul {
-        list-style-type: none;
-        display: flex;
-    }
-    
-    ul li a {
-        text-decoration: none;
-        font-family: "Alata", sans-serif;
-        font-weight: 400;
-        color: black;
-        margin-right: 20px;
-    }
-}
-
-#fotoPerfil {
-    width: 30rem;
-    height: auto;
-    border-radius: 50%;
-    margin: 0px 0px 0px 30px;
-}
-
-footer {
-    background-color: #899A9E;
-    font-family: "Kanit", sans-serif;
-    font-weight: 200;
-    font-size: 20px;
-
-    .logo {
-        width: 200px;
-        height: auto;
-        padding: 0px 20px 0px 20px;
-    }
-
-    .icones {
-        width: 40px;
-        height: auto;
-    }
-}
+header {
+    #cabecalho {
+         background-color: #899A9E;
+         padding: 25px;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         margin:  -10px -10px 0px -10px;
+ 
+         form input {
+             width: 850px;
+             height: 30px;
+             border-radius: 20px 20px 20px 20px;
+             border-color: #899A9E;
+             color: #899A9E;
+         }
+ 
+         input::placeholder {
+             color: #999;
+             font-family: "Kanit", sans-serif;
+             font-weight: 300;
+             padding-left: 15px;
+         }
+ 
+         button {
+             background: none;
+             border: none;
+             padding: 2px 2px 5px ;
+             border-radius: 0px 20px 20px 0px;
+ 
+             img {
+                 width: 18px;
+                 height: auto;
+             }
+         }
+ 
+         .logo {
+             width: 200px;
+             height: auto;
+             padding: 0px 20px 0px 20px;
+         }
+ 
+         .icones {
+             width: 40px;
+             height: auto;
+         }
+ 
+         ul {
+             display: flex;
+             list-style-type: none;
+         }
+ 
+         ul li {
+             padding: 0px 20px 0px 20px;
+         }
+     }
+ 
+     nav {
+         background: #EEE;
+         padding: 12px;
+         margin: 0px -10px 0px -10px;
+ 
+         ul {
+             list-style-type: none;
+             display: flex;
+         }
+         
+         ul li a {
+             text-decoration: none;
+             font-family: "Alata", sans-serif;
+             font-weight: 400;
+             color: black;
+             margin-right: 20px;
+         }
+     }
+ }
+ 
+ main {
+     font-family: "Alata", sans-serif;
+     font-weight: 400;
+     display: flex;
+     flex-direction: row;
+ 
+     #coluna1 { 
+         padding: 20px 45px 50px 45px;
+         text-align: center;
+     
+         h1 {
+             font-size: 30px;
+             padding-bottom: 20px;
+         }
+     
+         #fotoPerfil {
+             margin-bottom: 20px;
+             width: 15rem;
+             height: auto;
+             border-radius: 50%;
+         }
+     
+         .botoes {
+             a {
+                 text-decoration: none;
+                 font-family: "Alata", sans-serif;
+                 font-weight: 400;
+                 color: black;
+             }
+     
+             button { 
+                 background-color: #bdc5c7;
+                 padding: 3px 40px;
+                 padding: 12px;
+                 margin: 5px 15px 15px 15px;
+                 border: none;
+                 border-radius: 8px;
+             }
+         }
+     }
+     
+     #coluna2 {
+         display: flex;
+         flex-direction: column;
+         padding: 20px 45px 50px 130px;
+     
+         #listaDesejos {
+             display: flex;
+             flex-direction: column;
+             
+             div {
+                 display: flex;
+                 flex-direction: column;
+                 padding: 50px 0px 50px 190px;
+ 
+                 h2 {
+                     font-size: 30px;
+                     padding: 0px;
+                 }
+         
+                 img {
+                     width: 5rem;
+                     height: auto;
+                     padding: 20px 0px 0px 120px;
+                 }
+             }
+     
+         }
+     
+         #histCompras {
+             padding-top: 50px;
+             display: flex;
+             flex-direction: column;
+     
+             div {
+                 display: flex;
+                 flex-direction: column;
+                 align-items: center;
+                 padding: 50px 0px 50px 190px;
+ 
+ 
+                 h2 {
+                     font-size: 30px;
+                 }
+         
+                 img {
+                     width: 5rem;
+                     height: auto;
+                     padding: 20px 0px 0px 0px;
+                 }
+             }
+         
+         }
+     
+     }
+ }
+ 
+ footer {
+     margin: 0px -10px -10px -10px;
+     display: flex;
+     justify-content: space-between;
+     flex-direction: row;
+     text-align: left;
+     background-color: #c7dde2;
+ 
+     p {
+         font-family: "Kanit", sans-serif;
+         font-weight: 200;
+         font-size: 20px;
+         margin: 10px 0px 0px 50px;
+     }
+ 
+     .logo {
+         width: 200px;
+         height: auto;
+         padding: 10px 20px 50px 0px;
+     }
+ 
+     #logoRodape {
+         margin: 30px 0px 0px 50px;
+     }
+ 
+     #redesRodape {
+         margin: 30px 0px 0px 0px;
+ 
+         ul {
+             list-style-type: none;
+             display: flex;
+             flex-direction: row;
+             margin: 10px 0px 0px 10px;
+     
+             .icones {
+                 width: 40px;
+                 height: auto;
+                 padding: 0px 40px 40px 0px;
+                 }
+         }
+         
+     }
+ 
+     #mapaSite {
+         font-family: "Kanit", sans-serif;
+         color: black;
+         font-weight: 200;
+         font-size: 20px;
+         display: flex;
+         flex-direction: row;
+         padding: 30px 50px 0px 0px;
+         text-decoration: none;
+         
+         ul {
+             list-style-type: none;
+             display: flex;
+             flex-direction: column;
+ 
+             a {
+                 text-decoration: none;
+                 color: black;
+             }
+         }
+     }
+ }
