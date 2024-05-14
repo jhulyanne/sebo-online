@@ -97,6 +97,10 @@ form {
     }
 }
 
+
+
+
+
 footer {
     margin: 0px -10px -10px -10px;
     display: flex;
@@ -137,6 +141,7 @@ footer {
                 padding: 0px 40px 40px 0px;
                 }
         }
+        
     }
 
     #mapaSite {
