@@ -3,44 +3,47 @@
 }
 .header{
    width: 1890px;
-   height: 170px;
+   height: 140px;
    background: #899A9E;
    flex-shrink: 0;
    margin: 0%;
    padding: 0%;
 }
  .perfil{
-    fill: #FFF;
-    width: 50px;
-    height: 50px;
-    flex-shrink: 0;
-    right:110px;
-    margin-top: 60px;
-    position:absolute
- }
-
- .carro{
-    width: 50px;
-    height: 50px;
+   width: 40px;
+    height: 40px;
     flex-shrink: 0;
     right:30px;
     margin-top: 60px;
-    position:absolute
+    position:absolute;
+    top: -1%
+}
+ 
+
+ .carro{
+   fill: #FFF;
+   width: 40px;
+   height: 40px;
+   flex-shrink: 0;
+   right:100px;
+   margin-top: 60px;
+   position:absolute;
+   top: -1%
 }
    
 
 .logo{
-    width: 260px;
-    height: 120px;
+    width: 198px;
+    height: 94px;
     flex-shrink: 0;
     position: absolute;
-    left: 4%;
-    top: 3%;
+    left: 2%;
+    top: 2%;
 }
 
 .busca{ 
 position: absolute;
-top: 8%;
+top: 7%;
 left:35%;
  width:620px;
  height: 30px;
@@ -54,12 +57,12 @@ left:35%;
  line-height: normal;
  text-align: center;
  border: #899A9E
- 
+
 }
 
 .topo{
    width: 1890px;
-   height: 60px;
+   height: 70px;
    background: #EEE;
    flex-shrink: 0;  
   position: absolute;
@@ -110,53 +113,35 @@ left:20%;
 }
 
 .login{
-   color: #000;
    text-decoration: none;
-   font-family: Kanit;
-   font-size: 20px;
-   font-style: normal;
-   font-weight: 300;
-   line-height: normal;
-   text-align: center;
+   font-family: "Alata", sans-serif;
+   font-weight: 400;
+   color: black;
    position: absolute;
    left: 88%;
 }
 
 .sobrenos{
-   width: 181px;
    text-decoration: none;
-   color: #000;
-   font-family: kanit ;
-   font-size: 20px;
-   font-style: normal;
-   font-weight: 300;
-   line-height: normal;
-   text-align: center;
+   font-family: "Alata", sans-serif;
+   font-weight: 400;
+   color: black;
    position: absolute;
-   left: auto;
+   left: 10%;
 }
 .home{
-   color: #000;
-   font-family: Inter;
-   font-size: 20px;
-   font-style: normal;
-   font-weight: 300;
-   line-height: normal;
-   text-align: center;
    text-decoration: none;
+   font-family: "Alata", sans-serif;
+   font-weight: 400;
+   color: black;
 }
 .cadastro{
-   color: #000;
    text-decoration: none;
-   font-family: Kanit;
-   font-size: 20px;
-   font-style: normal;
-   font-weight: 300;
-   line-height: normal;
-   text-align: center;
+   font-family: "Alata", sans-serif;
+   font-weight: 400;
+   color: black;
    position: absolute;
-   left: 93%
-   
+   left: 95%;
 }
 .main{
    display: flex;
@@ -266,8 +251,8 @@ left:20%;
 
 footer {
    position: absolute;
-   width: 1900px;
-   height: 200px;
+   width: 1890px;
+   height: 230px;
    top: 118%;
    margin: 0px -10px -10px -10px;
    display: flex;
@@ -281,6 +266,8 @@ footer {
        font-weight: 200;
        font-size: 20px;
        margin: 10px 0px 0px 50px;
+       position: absolute;
+       left: 50%
    }
 
    .logo {
