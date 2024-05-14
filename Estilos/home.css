@@ -179,11 +179,15 @@ section {
     }
     
     button {
-        background-color: #246f80;
+        background-color: #42636D;
         padding: 3px 40px;
         margin: 0px 15px 0px 15px;
         border: none;
         border-radius: 20px;
+    }
+  
+    button:hover {
+        background-color: #102e36;
     }
     
     .imgBotao {
