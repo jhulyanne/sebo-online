@@ -183,18 +183,18 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 20px; /* Espaçamento entre os itens */
-    padding: 0 50px; /* Adiciona padding nas laterais */
+    gap: 20px; 
+    padding: 0 50px; 
 }
 
 .livro {
-    width: calc(33.33% - 20px); /* Ajusta a largura para três itens por linha menos o espaçamento */
-    box-sizing: border-box; /* Inclui padding e border no cálculo da largura */
-    margin-bottom: 20px; /* Adiciona espaçamento inferior entre as linhas */
+    width: calc(33.33% - 20px); 
+    box-sizing: border-box; 
+    margin-bottom: 20px; 
 }
 
 .fundoProduto {
-    width: 100%; /* Ajusta para preencher a largura do contêiner pai */
+    width: 100%; 
     height: auto;
     background-color: #edf5f5;
     border-radius: 5px;
