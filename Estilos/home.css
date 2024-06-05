@@ -113,6 +113,9 @@ header {
     }
 }
 
+
+
+
 .capas {
     width: 200px;
     height: auto;
@@ -163,6 +166,7 @@ section {
         display: flex;
         flex-direction: column;
         align-items: center;
+        
     }
 
     .informacoesProduto {

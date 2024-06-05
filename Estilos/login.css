@@ -81,6 +81,7 @@ header {
 }
 
 
+
 #formulario {
     padding: 80px;
     width: 5rem;
@@ -163,15 +164,39 @@ header {
         }
     }
 
+            #botaoSubmit {
+            border: none;
+            font-family: 'Kanit';
+            font-weight: 400;
+            font-size: 20px;
+            color: white;
+            width: 380px;
+            background-color: #42636D;
+            height: 50px;
+            border-radius: 15px;
+            transition: background-color 0.3s ease; /* Transição suave */
+        }
+        
+        #botaoSubmit:hover {
+            background-color: #2f464d;
+        }
+
+        .msg {
+            color: rgb(210, 38, 38);
+            font-family: 'Kanit';
+            font-weight: 400;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+    }
+
+
     img {
         width: 400px;
         height: 600px;
         padding-left: 80rem;
     }
-}
-
-
-
+    
 footer {
     margin: 0px -10px -10px -10px;
     display: flex;

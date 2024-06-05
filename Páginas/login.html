@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alata&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../Estilos/login.css">
+    <script src="../Scripts/login.js"></script>
     <title>Login</title>
 </head>
 <body>
@@ -14,7 +15,8 @@
         <div id="cabecalho">
             <a href="home.html"><img class="logo" src="../Fotos/logos e ícones/logo.b.png" alt="Logo da Livraria do Tempo na cor branca"></a>
             <form>
-                <input type="search" name="busca" placeholder="Digite sua busca">
+                <input id="busca" type="search" name="busca" placeholder="Digite sua busca">
+                <div id="resultados"></div>
             </form>
             <ul>
                 <li><a href="carrinho.html"><img class="icones" src="../Fotos/logos e ícones/carrinho.png" alt=""></a></li>
@@ -36,13 +38,14 @@
     </header>
     <div id="formulario">
         <img src="../Fotos/imagem-login.cadastro.png" alt="">
-        <form>
+        <form id="login">
             <div id="login">
                 <h1>Login</h1>
-                <input type="text" required placeholder="Usuário ou email">
-                <input type="password" required placeholder="Senha">
+                <input id="usuario" type="text"  placeholder="Usuário ou email" required>
+                <input id="senha" type="password" placeholder="Senha" required>
                 <label><input type="checkbox">Lembrar de mim</label>
-                <button>Entrar</button>
+                <div class="msg"></div>
+                <input id="botaoSubmit" type="submit" value="Entrar">
                 <a href="#">Esqueci minha senha</a>
                 <p>Ainda não é cadastrado? <a href="cadastro.html">Cadastre-se</a></p>
             </div>
