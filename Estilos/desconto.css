@@ -204,6 +204,7 @@ footer {
     align-items: center;
 }
 
+
 .capas {
     width: 180px;
     height: auto;
@@ -226,6 +227,7 @@ footer {
 }
 
 .informacoesProduto {
+    font-family: "Alata", sans-serif;
     text-align: start;    
 }
 .preco {
@@ -251,6 +253,7 @@ footer {
 }
 
 .informacoesProduto {
+    font-family: "Alata", sans-serif;
     padding: 0px 0px 5px 5px;
     display: flex;
     flex-direction: column;
