@@ -179,7 +179,7 @@ footer {
     }
 }
 
-#livros-section {
+#produtosDes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -254,12 +254,13 @@ footer {
 
 .informacoesProduto {
     font-family: "Alata", sans-serif;
-    padding: 0px 0px 5px 5px;
+    padding: 0px 0px 0px 0px; 
     display: flex;
     flex-direction: column;
-    align-items: start;
-    line-height: 0px;
+    align-items: flex-start;
+    line-height: 0; 
 }
+
 .botoes {
     display: flex;
     flex-direction: row;
