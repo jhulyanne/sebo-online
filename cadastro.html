@@ -39,14 +39,14 @@
         <form>
             <div id="cadastro">
                 <h1>Cadastre-se</h1>
-                <input type="email" required placeholder="Email">
+                <input type="email" id="email" required placeholder="Email">
                 <br><br>
                 <input type="text" required placeholder="Usuário">
                 <br><br>
                 <input type="password" required placeholder="Senha">
                 <br><br>
-                <button required>Cadastrar</button>
-                <p>Já é cadastrado? <a href="login.html">Faça seu login</a></p>
+                <button id="submitBtn" required>Cadastrar</button>
+                <p id="emailError">Já é cadastrado? <a href="login.html">Faça seu login</a></p>
             </div>
         </form>
     </div>
@@ -85,4 +85,5 @@
         </div>
     </div>
 </footer>
+<script src="cadastro.js"></script>
 </html>

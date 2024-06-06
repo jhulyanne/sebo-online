@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() { 
     const livros = [
         {
             titulo: "Maze Runner - Correr ou Morrer",
@@ -50,8 +50,8 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     ];
 
-    const livrosSection = document.getElementById('livros-section');
-    const livroTemplate = document.getElementById('livro-template').content;
+    const livrosSection = document.getElementById('produtosDes');
+    const livroTemplate = document.getElementById('livropag').content;
 
     livros.forEach(livro => {
         const livroClone = document.importNode(livroTemplate, true);

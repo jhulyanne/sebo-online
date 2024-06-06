@@ -218,3 +218,12 @@ footer {
         }
     }
 }
+input[type="email"].invalid {
+    border: 2px solid red;
+    background-color: #f8d7da;
+}
+
+input[type="password"].invalid {
+    border: 2px solid red;
+    background-color: #f8d7da; 
+}
