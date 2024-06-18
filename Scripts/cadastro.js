@@ -13,7 +13,10 @@ document.addEventListener('DOMContentLoaded', function () {
         const senha = inputSenha.value;
 
         if (email === '' || usuario === '' || senha === '') {
+            
             msgErro.textContent = 'Por favor, preencha todos os campos corretamente!';
+
+
 
             setTimeout(() => {
                 msgErro.textContent = '';
