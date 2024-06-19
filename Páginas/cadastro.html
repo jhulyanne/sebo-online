@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Estilos/cadastro.css">
+    <script src="../Scripts/cadastro.js"></script>
+    <title>Cadastre-se</title>
+</head>
+<body>
+    <header>
+        <div id="cabecalho">
+            <a href="home.html"><img class="logo" src="../Fotos/logos e ícones/logo.b.png" alt="Logo da Livraria do Tempo na cor branca"></a>
+            <form>
+                <input type="search" name="busca" placeholder="Digite sua busca">
+            </form>
+            <ul>
+                <li><a href="carrinho.html"><img class="icones" src="Fotos/logos e ícones/carrinho.png" alt=""></a></li>
+                <li><a href="perfil.html"><img class="icones" src="Fotos/logos e ícones/perfil.png" alt=""></a></li>
+            </ul>
+        </div>
+        <nav>
+            <ul>
+                <div class="navHeS">
+                    <li><a href="home.html">Pagina inicial</a></li>
+                    <li><a href="sobrenos.html">Sobre Nós</a></li>
+                </div>
+                <div class="navLeC">
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <div id="formulario">
+        <img src="../Fotos/imagem-login.cadastro.png" alt="">
+        <form>
+            <div id="cadastro">
+                <h1>Cadastre-se</h1>
+                <input type="email" id="email" required placeholder="Email">
+                <br><br>
+                <input type="text" required placeholder="Usuário">
+                <br><br>
+                <input type="password" id="senha" required placeholder="Senha">
+                <p id="passwordError"></p>
+                <button id="submitBtn" required>Cadastrar</button>
+                <p id="emailError">Já é cadastrado? <a href="login.html">Faça seu login</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+<footer>
+    <div id="logoRodape">
+        <a href="home.html"><img class="logo" src="../Fotos/logos e ícones/logo.p.png" alt="Logo da Livraria do Tempo na cor preta"></a>    
+    </div>
+    <div id="redesRodape">
+        <p>Nos acompanhe em nossas redes sociais:</p>
+        <ul>
+            <li><a href="instagram.com"><img class="icones" src="../Fotos/logos e ícones/logo-instagram.svg" alt="Instagram de Livraria do Tempo"></a></li>
+            <li><a href="linkedin.com"><img class="icones" src="../Fotos/logos e ícones/linkedin-logo.svg" alt="LinkedIn de Livraria do Tempo"></a></li>
+            <li><a href="facebook.com"><img class="icones" src="../Fotos/logos e ícones/facebook-logo.svg" alt="Facebook de Livraria do Tempo"></a></li>
+            <li><a href="youtube.com"><img class="icones" src="../Fotos/logos e ícones/youtube-logo.svg" alt="Youtube de Livraria do Tempo"></a></li>
+            <li><a href="twitter.com"><img class="icones" src="../Fotos/logos e ícones/logo-twitter.svg" alt="Twitter de Livraria do Tempo"></a></li>
+        </ul>
+    </div>    
+    <div id="mapaSite">
+        <div id="col1">
+            <ul>
+                <li><a href="home.html">Página inicial</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="sobrenos.html">Sobre nós</a></li>
+            </ul>
+        </div>
+        <div id="col2">
+            <ul>  
+                <li><a href="perfil.html">Meu perfil</a></li>
+                <li><a href="emconstrucao.html">Informações da conta</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+                <li><a href="emconstrucao.html">Meus favoritos</a></li>
+                <li><a href="emconstrucao.html">Encerrar sessão</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+</html>
