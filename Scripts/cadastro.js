@@ -11,7 +11,7 @@ document.getElementById('email').addEventListener('input', function() {
 
     if (!validateEmail(emailInput)) {
         emailField.classList.add('invalid');
-        emailError.innerText = 'O e-mail deve ser válido e conter "@" e um domínio válido';
+        emailError.innerText = 'O e-mail deve ser válido e conter "@" e ".com"';
     } else {
         emailField.classList.remove('invalid');
         emailError.innerText = '';
