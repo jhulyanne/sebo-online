@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
             autor: "James Dashner",
             preco: "De: R$30,00",
             desconto: "Por: R$ 18,00",
-            imagem: "Fotos/produtos/maze.jpg",
+            imagem: "../Fotos/produtos/maze.jpg",
             alt: "Capa livro"
         },
         {
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
             autor: "Machado de Assis",
             preco: "De: R$25,00",
             desconto: "Por: R$ 13,00",
-            imagem: "Fotos/produtos/memorias.jpg",
+            imagem: "../Fotos/produtos/memorias.jpg",
             alt: "Capa do livro"
         },
         {
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
             autor: "Robert Bloch ",
             preco: "De: R$35,00",
             desconto: "Por: R$ 22,00",
-            imagem: "Fotos/produtos/psi.jpg",
+            imagem: "../Fotos/produtos/psi.jpg",
             alt: "Capa do livro"
         },
         {
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
             autor: "J.K. Rowling",
             preco: "De: R$40,00",
             desconto: "Por: R$ 25,00",
-            imagem: "Fotos/produtos/pris.jpg",
+            imagem: "../Fotos/produtos/pris.jpg",
             alt: "Capa do livro"
         },
         {
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
             autor: "J.R.R. Tolkien",
             preco: "De: R$32,00",
             desconto: "Por: R$ 18,00",
-            imagem: "Fotos/produtos/senhor.jpg",
+            imagem: "../Fotos/produtos/senhor.jpg",
             alt: "Capa do livro"
         },
         {
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
             autor: "C. S. Lewis ",
             preco: "De: R$35,00",
             desconto: "Por: R$ 22,00",
-            imagem: "Fotos/produtos/narn.jpg",
+            imagem: "../Fotos/produtos/narn.jpg",
             alt: "Capa do livro"
         }
     ];
