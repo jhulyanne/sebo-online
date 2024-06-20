@@ -1,5 +1,5 @@
 function validateEmail(email) {
-    const re = /\S+@\S+\.com/;
+    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return re.test(email);
 }
 
@@ -11,12 +11,13 @@ document.getElementById('email').addEventListener('input', function() {
 
     if (!validateEmail(emailInput)) {
         emailField.classList.add('invalid');
-        emailError.innerText = 'O e-mail deve ser válido e conter "@" e ".com"';
+        emailError.innerText = 'O e-mail deve ser válido e conter "@" e um domínio válido';
     } else {
         emailField.classList.remove('invalid');
         emailError.innerText = '';
     }
 });
+
 
 function validatePassword(password) {
     return password.length >= 8;
